@@ -1,50 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap");
 
 @font-face {
-    font-family: Signature;
-    src: url(./photograph_signature/Photograph\ Signature.ttf);
+  font-family: Signature;
+  src: url(./photograph_signature/Photograph\ Signature.ttf);
 }
 
 @font-face {
-    font-family: Fast;
-    src: url(./windpath/Windpath.ttf);
+  font-family: Fast;
+  src: url(./windpath/Windpath.ttf);
 }
 
 * {
-    font-size: 18px;
-    line-height: .9;
+  font-size: 18px;
+  line-height: 0.9;
 }
 h1 {
-    font-size: 16px;
-    color: blue;
-    text-decoration: underline;
-    text-align: center;
+  font-size: 16px;
+  color: blue;
+  text-decoration: underline;
+  text-align: center;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bold-roboto {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
 .handwritten {
-    font-family: Fast;
-    font-size: 24px;
+  font-family: Fast;
+  font-size: 24px;
+}
+
+.urdu {
+  font-family: "Noto Nastaliq Urdu", serif;
 }
 
 .credits {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 .signature span {
-    font-family: Signature;
-    font-size: 24px;
+  font-family: Signature;
+  font-size: 24px;
 }
